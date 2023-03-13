@@ -98,7 +98,7 @@ form.addEventListener("submit", (e) => {
 const number1 = [1, 3, -6, -7, 5.8, 6.5, 8, 4.2, -3, -5, -9.8, 2.2, -3.2];
 
 function round(i) {
-  for (i = 0; i < number1.length; i++) {
+  for (let i = 0; i < number1.length; i++) {
     if (number1[i] < 0) {
       number1[i] = number1[i] * -1;
       number1[i] = Math.round(number1[i]);
