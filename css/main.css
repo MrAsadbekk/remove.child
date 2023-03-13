@@ -1,0 +1,62 @@
+.box {
+  display: flex;
+  gap: 70px;
+  margin-top: 70px;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact {
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 30px;
+}
+
+.input {
+  width: 300px;
+  padding: 10px 10px;
+}
+
+.btn {
+  padding: 15px 70px;
+  color: white;
+  background-color: #006ffa;
+  border: none;
+  cursor: pointer;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.add__box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-one {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #006ffa;
+  cursor: pointer;
+}
+
+.box__one-title {
+  text-align: center;
+}
